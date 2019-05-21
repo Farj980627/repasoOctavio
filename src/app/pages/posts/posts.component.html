@@ -1,0 +1,2 @@
+
+<app-post *ngFor="let post of postsRemote | async"[postRemote]="post" (clickpost)="onClickPadre($event)"></app-post>
